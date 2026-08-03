@@ -1,0 +1,126 @@
+{
+  "_ayuda": "Esta es la copia de RESPALDO que va adentro del APK. Si cargaste la URL del config en strings.xml, la app usa el de GitHub y este solo se usa cuando no hay internet. Cada seccion es una fila del menu, en este mismo orden. 'm3u' acepta un link o un array de links que se juntan. 'items' son links fijos tuyos. 'filtro': 'espanol_latino' deja solo canales en espanol sacando los de Espana.",
+
+  "app": {
+    "nombre": "App para todos",
+    "autoria": "by Hernán y su equipo"
+  },
+
+  "cafecito": {
+    "_ayuda": "Apagado a propósito. Cuando quieras activarlo: poné 'activo' en true y pegá tu link. Si el config está en GitHub, con eso solo ya aparece en todos los celulares.",
+    "activo": false,
+    "titulo": "¿Te sirve la app?",
+    "texto": "La hacemos gratis y a pulmón.\nSi querés dar una mano, invitanos un cafecito.",
+    "link": ""
+  },
+
+  "secciones": [
+    {
+      "titulo": "Noticias",
+      "m3u": "https://iptv-org.github.io/iptv/categories/news.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Niños",
+      "m3u": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "ARGENTINA",
+      "m3u": "https://iptv-org.github.io/iptv/countries/ar.m3u"
+    },
+    {
+      "titulo": "México",
+      "m3u": "https://iptv-org.github.io/iptv/countries/mx.m3u"
+    },
+    {
+      "titulo": "Chile",
+      "m3u": "https://iptv-org.github.io/iptv/countries/cl.m3u"
+    },
+    {
+      "titulo": "Uruguay",
+      "m3u": "https://iptv-org.github.io/iptv/countries/uy.m3u"
+    },
+    {
+      "titulo": "Paraguay",
+      "m3u": "https://iptv-org.github.io/iptv/countries/py.m3u"
+    },
+    {
+      "titulo": "Bolivia",
+      "m3u": "https://iptv-org.github.io/iptv/countries/bo.m3u"
+    },
+    {
+      "titulo": "Perú",
+      "m3u": "https://iptv-org.github.io/iptv/countries/pe.m3u"
+    },
+    {
+      "titulo": "Colombia",
+      "m3u": "https://iptv-org.github.io/iptv/countries/co.m3u"
+    },
+    {
+      "titulo": "Ecuador",
+      "m3u": "https://iptv-org.github.io/iptv/countries/ec.m3u"
+    },
+    {
+      "titulo": "Venezuela",
+      "m3u": "https://iptv-org.github.io/iptv/countries/ve.m3u"
+    },
+    {
+      "titulo": "República Dominicana",
+      "m3u": "https://iptv-org.github.io/iptv/countries/do.m3u"
+    },
+    {
+      "titulo": "Centroamérica",
+      "m3u": [
+        "https://iptv-org.github.io/iptv/countries/cr.m3u",
+        "https://iptv-org.github.io/iptv/countries/pa.m3u",
+        "https://iptv-org.github.io/iptv/countries/gt.m3u",
+        "https://iptv-org.github.io/iptv/countries/hn.m3u",
+        "https://iptv-org.github.io/iptv/countries/sv.m3u",
+        "https://iptv-org.github.io/iptv/countries/ni.m3u"
+      ]
+    },
+    {
+      "titulo": "Cuba y Puerto Rico",
+      "m3u": [
+        "https://iptv-org.github.io/iptv/countries/cu.m3u",
+        "https://iptv-org.github.io/iptv/countries/pr.m3u"
+      ]
+    },
+    {
+      "titulo": "Pelis en español latino",
+      "m3u": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Series en español latino",
+      "m3u": "https://iptv-org.github.io/iptv/categories/series.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Entretenimiento",
+      "m3u": "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Música",
+      "m3u": "https://iptv-org.github.io/iptv/categories/music.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Documentales",
+      "m3u": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Mis links",
+      "items": [
+        {
+          "nombre": "Ejemplo (poné acá tu link)",
+          "url": "",
+          "logo": ""
+        }
+      ]
+    }
+  ]
+}

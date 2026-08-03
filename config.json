@@ -16,11 +16,12 @@
   },
 
   "actualizacion": {
-    "_ayuda": "'version' tiene que coincidir con el versionCode del APK que subiste. Cuando saques una nueva: subí el APK al repo, subí este número, y a todos les va a saltar el aviso solo.",
-    "version": 2,
-    "nombre": "1.1",
+    "_ayuda": "'version' tiene que coincidir con el versionCode del APK que subiste. Cuando saques una nueva: subí el APK al repo, subí este número, y a todos les va a saltar el aviso solo. 'obligatoria' en true saca el botón 'Después': sin actualizar no se puede usar la app.",
+    "version": 3,
+    "nombre": "1.2",
+    "obligatoria": true,
     "url": "https://raw.githubusercontent.com/redsanbox88-pixel/app-para-todos/main/AppParaTodos.apk",
-    "notas": "Clave de acceso y actualización automática.\nDe ahora en más se actualiza sola."
+    "notas": "Mejoras en los canales y en el buscador."
   },
 
   "cafecito": {

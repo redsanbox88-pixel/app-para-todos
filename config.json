@@ -2,8 +2,25 @@
   "_ayuda": "ESTE es el archivo que manda. La app lo baja de GitHub cada vez que abre. Editalo desde la web de GitHub (lapicito) y a los dos minutos lo ven todos, sin recompilar nada. Cada seccion es una fila del menu, en este mismo orden. 'm3u' acepta un link o un array de links que se juntan. 'items' son links fijos tuyos. 'filtro': 'espanol_latino' deja solo canales en espanol sacando los de Espana.",
 
   "app": {
+    "_ayuda": "'autoria' la leen TODAS las versiones. 'autoria_v2' solo la 1.1 en adelante. Por eso el aviso de actualizar va en 'autoria': lo ven únicamente los que quedaron con la app vieja. Cuando ya no quede nadie en la vieja, poné el mismo texto en las dos.",
     "nombre": "App para todos",
-    "autoria": "by Hernán y su equipo"
+    "autoria": "⚠ ACTUALIZÁ LA APP — pedila en el grupo",
+    "autoria_v2": "by Hernán y su equipo"
+  },
+
+  "acceso": {
+    "_ayuda": "Cambiá 'clave' cada 15 días. A quien ya la escribió no se la vuelve a pedir hasta que la cambies. Para desactivar todo esto, poné 'activo' en false.",
+    "activo": true,
+    "clave": "FENIX2026",
+    "mensaje": "Pedí la clave en el grupo de WhatsApp.\nCambia cada 15 días."
+  },
+
+  "actualizacion": {
+    "_ayuda": "'version' tiene que coincidir con el versionCode del APK que subiste. Cuando saques una nueva: subí el APK al repo, subí este número, y a todos les va a saltar el aviso solo.",
+    "version": 2,
+    "nombre": "1.1",
+    "url": "https://raw.githubusercontent.com/redsanbox88-pixel/app-para-todos/main/AppParaTodos.apk",
+    "notas": "Clave de acceso y actualización automática.\nDe ahora en más se actualiza sola."
   },
 
   "cafecito": {

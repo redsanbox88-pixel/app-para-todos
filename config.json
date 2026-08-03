@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Esta es la copia de RESPALDO que va adentro del APK. Si cargaste la URL del config en strings.xml, la app usa el de GitHub y este solo se usa cuando no hay internet. Cada seccion es una fila del menu, en este mismo orden. 'm3u' acepta un link o un array de links que se juntan. 'items' son links fijos tuyos. 'filtro': 'espanol_latino' deja solo canales en espanol sacando los de Espana.",
+  "_ayuda": "ESTE es el archivo que manda. La app lo baja de GitHub cada vez que abre. Editalo desde la web de GitHub (lapicito) y a los dos minutos lo ven todos, sin recompilar nada. Cada seccion es una fila del menu, en este mismo orden. 'm3u' acepta un link o un array de links que se juntan. 'items' son links fijos tuyos. 'filtro': 'espanol_latino' deja solo canales en espanol sacando los de Espana.",
 
   "app": {
     "nombre": "App para todos",
@@ -86,6 +86,11 @@
         "https://iptv-org.github.io/iptv/countries/cu.m3u",
         "https://iptv-org.github.io/iptv/countries/pr.m3u"
       ]
+    },
+    {
+      "titulo": "Deportes",
+      "m3u": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+      "filtro": "espanol_latino"
     },
     {
       "titulo": "Pelis en español latino",

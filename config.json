@@ -2,26 +2,26 @@
   "_ayuda": "ESTE es el archivo que manda. La app lo baja de GitHub cada vez que abre. Editalo desde la web de GitHub (lapicito) y a los dos minutos lo ven todos, sin recompilar nada. Cada seccion es una fila del menu, en este mismo orden. 'm3u' acepta un link o un array de links que se juntan. 'items' son links fijos tuyos. 'filtro': 'espanol_latino' deja solo canales en espanol sacando los de Espana.",
 
   "app": {
-    "_ayuda": "'autoria' la leen TODAS las versiones. 'autoria_v2' solo la 1.1 en adelante. Por eso el aviso de actualizar va en 'autoria': lo ven únicamente los que quedaron con la app vieja. Cuando ya no quede nadie en la vieja, poné el mismo texto en las dos.",
+    "_ayuda": "'autoria' la leen TODAS las versiones, incluidas las viejas que no tienen actualizador (por eso ahí va el aviso de actualizar). 'autoria_v2' la leen las versiones con actualizador (2 en adelante) y es la que ve la gente al dia: esa es la que ya no menciona a nadie en particular.",
     "nombre": "App para todos",
     "autoria": "⚠ ACTUALIZÁ LA APP — pedila en el grupo",
-    "autoria_v2": "by Hernán y su equipo"
+    "autoria_v2": "TV libre para toda Latinoamérica"
   },
 
   "acceso": {
-    "_ayuda": "Cambiá 'clave' cada 15 días. A quien ya la escribió no se la vuelve a pedir hasta que la cambies. Para desactivar todo esto, poné 'activo' en false.",
-    "activo": true,
-    "clave": "FENIX2026",
-    "mensaje": "Pedí la clave en el grupo de WhatsApp.\nCambia cada 15 días."
+    "_ayuda": "Apagado a proposito, igual que el cafecito: si algun dia queres volver a pedir clave, poné 'activo' en true y una 'clave'.",
+    "activo": false,
+    "clave": "",
+    "mensaje": "Pedí la clave en el grupo de WhatsApp."
   },
 
   "actualizacion": {
-    "_ayuda": "'version' tiene que coincidir con el versionCode del APK que subiste. Cuando saques una nueva: subí el APK al repo, subí este número, y a todos les va a saltar el aviso solo. 'obligatoria' en true saca el botón 'Después': sin actualizar no se puede usar la app.",
-    "version": 3,
-    "nombre": "1.2",
+    "_ayuda": "'version' tiene que coincidir con el versionCode del APK que subiste. Cuando saques una nueva: subí el APK a un Release de GitHub, subí este número, y a todos les va a saltar el aviso solo. 'obligatoria' en true saca el botón 'Después': sin actualizar no se puede usar la app.",
+    "version": 4,
+    "nombre": "1.3",
     "obligatoria": true,
-    "url": "https://raw.githubusercontent.com/redsanbox88-pixel/app-para-todos/main/AppParaTodos.apk",
-    "notas": "Mejoras en los canales y en el buscador."
+    "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
+    "notas": "TV libre, sin clave de acceso.\nSe sumaron un montón de canales nuevos: General, Religiosos, Cultura, Educación, Animación y más."
   },
 
   "cafecito": {
@@ -133,6 +133,57 @@
     {
       "titulo": "Documentales",
       "m3u": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "General",
+      "m3u": "https://iptv-org.github.io/iptv/categories/general.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Animación",
+      "m3u": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Religiosos",
+      "m3u": "https://iptv-org.github.io/iptv/categories/religious.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Cultura",
+      "m3u": "https://iptv-org.github.io/iptv/categories/culture.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Educación",
+      "m3u": "https://iptv-org.github.io/iptv/categories/education.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "titulo": "Legislativos",
+      "m3u": "https://iptv-org.github.io/iptv/categories/legislative.m3u",
+      "filtro": "espanol_latino"
+    },
+    {
+      "_ayuda": "Categorias chicas de iptv-org agrupadas en una sola fila para no llenar el menu de filas casi vacias.",
+      "titulo": "Otros",
+      "m3u": [
+        "https://iptv-org.github.io/iptv/categories/comedy.m3u",
+        "https://iptv-org.github.io/iptv/categories/lifestyle.m3u",
+        "https://iptv-org.github.io/iptv/categories/outdoor.m3u",
+        "https://iptv-org.github.io/iptv/categories/travel.m3u",
+        "https://iptv-org.github.io/iptv/categories/classic.m3u",
+        "https://iptv-org.github.io/iptv/categories/family.m3u",
+        "https://iptv-org.github.io/iptv/categories/business.m3u",
+        "https://iptv-org.github.io/iptv/categories/science.m3u",
+        "https://iptv-org.github.io/iptv/categories/cooking.m3u",
+        "https://iptv-org.github.io/iptv/categories/shop.m3u",
+        "https://iptv-org.github.io/iptv/categories/public.m3u",
+        "https://iptv-org.github.io/iptv/categories/auto.m3u",
+        "https://iptv-org.github.io/iptv/categories/weather.m3u",
+        "https://iptv-org.github.io/iptv/categories/relax.m3u"
+      ],
       "filtro": "espanol_latino"
     },
     {

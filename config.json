@@ -12,11 +12,11 @@
   },
 
   "actualizacion": {
-    "version": 4,
-    "nombre": "1.3",
-    "obligatoria": true,
+    "version": 5,
+    "nombre": "1.4",
+    "obligatoria": false,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "TV libre, sin clave de acceso.\nSe sumaron un montón de canales nuevos: General, Religiosos, Cultura, Educación, Animación y más."
+    "notas": "La franja del nombre del canal ahora se esconde sola.\nSe bajó el volumen de la música de fondo."
   },
 
   "cafecito": {

@@ -12,11 +12,11 @@
   },
 
   "actualizacion": {
-    "version": 5,
-    "nombre": "1.4",
+    "version": 6,
+    "nombre": "1.5",
     "obligatoria": false,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "La franja del nombre del canal ahora se esconde sola.\nSe bajó el volumen de la música de fondo."
+    "notas": "Nuevo: sección 'Mi IPTV' para cargar tu propia lista M3U o cuenta Xtream Code.\nDiseño renovado en naranja."
   },
 
   "cafecito": {

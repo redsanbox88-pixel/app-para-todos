@@ -12,11 +12,11 @@
   },
 
   "actualizacion": {
-    "version": 6,
-    "nombre": "1.5",
+    "version": 7,
+    "nombre": "1.6",
     "obligatoria": false,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "Nuevo: sección 'Mi IPTV' para cargar tu propia lista M3U o cuenta Xtream Code.\nDiseño renovado en naranja."
+    "notas": "Nuevo: sección 'Películas libres', 18 clásicos de dominio público que reproducen adentro de la app.\nMarca renovada: logo e ícono nuevos, fondo nuevo."
   },
 
   "cafecito": {
@@ -24,6 +24,30 @@
     "titulo": "¿Te sirve la app?",
     "texto": "La hacemos gratis y a pulmón.\nSi querés dar una mano, invitanos un cafecito.",
     "link": ""
+  },
+
+  "peliculas_libres": {
+    "titulo": "Películas libres",
+    "items": [
+      { "nombre": "His Girl Friday (1940)", "url": "https://dn800306.us.archive.org/0/items/his_girl_friday/his_girl_friday.mp4", "logo": "https://archive.org/services/img/his_girl_friday" },
+      { "nombre": "Reefer Madness (1936)", "url": "https://dn600309.us.archive.org/0/items/reefer_madness1938/reefer_madness1938.mp4", "logo": "https://archive.org/services/img/reefer_madness1938" },
+      { "nombre": "El fantasma de la opera (1925)", "url": "https://dn600306.us.archive.org/0/items/ThePhantomoftheOpera/Phantom_of_the_Opera_512kb.mp4", "logo": "https://archive.org/services/img/ThePhantomoftheOpera" },
+      { "nombre": "Nosferatu (1922)", "url": "https://ia903100.us.archive.org/26/items/Nosferatu1922/Nosferatu.mp4", "logo": "https://archive.org/services/img/Nosferatu1922" },
+      { "nombre": "Detour (1945)", "url": "https://dn800203.us.archive.org/0/items/Detour/Detour.mp4", "logo": "https://archive.org/services/img/Detour" },
+      { "nombre": "La noche de los muertos vivientes (1968)", "url": "https://dn800308.us.archive.org/0/items/night_of_the_living_dead_dvd/Night.mp4", "logo": "https://archive.org/services/img/night_of_the_living_dead_dvd" },
+      { "nombre": "El maquinista de la General (1926)", "url": "https://dn800308.us.archive.org/0/items/TheGeneral/The_General_512kb.mp4", "logo": "https://archive.org/services/img/TheGeneral" },
+      { "nombre": "Billy the Kid Returns (1938)", "url": "https://dn800300.us.archive.org/0/items/BillytheKidReturns/BillytheKidReturns.mp4", "logo": "https://archive.org/services/img/BillytheKidReturns" },
+      { "nombre": "Billy the Kid Wanted (1941)", "url": "https://dn801207.us.archive.org/0/items/Billy_the_Kid_Wanted_1941/Billy_the_Kid_Wanted_1941.mp4", "logo": "https://archive.org/services/img/Billy_the_Kid_Wanted_1941" },
+      { "nombre": "Charade (1953)", "url": "https://dn600303.us.archive.org/0/items/Charade_1953/CHARADE_1953_512kb.mp4", "logo": "https://archive.org/services/img/Charade_1953" },
+      { "nombre": "Metropolis (1927)", "url": "https://dn601201.us.archive.org/0/items/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4", "logo": "https://archive.org/services/img/Metropolis1927EnglishVersion" },
+      { "nombre": "The Kid Auto Race in Venice (1914)", "url": "https://dn800307.us.archive.org/0/items/TheKidAutoRaceinVenice/The_Kid_Auto_Race_In_Venice_512kb.mp4", "logo": "https://archive.org/services/img/TheKidAutoRaceinVenice" },
+      { "nombre": "Plan 9 From Outer Space (1959)", "url": "https://dn600302.us.archive.org/0/items/774-plan-9-from-outer-space/774-Plan9FromOuterSpace.mp4", "logo": "https://archive.org/services/img/774-plan-9-from-outer-space" },
+      { "nombre": "El gabinete del Dr. Caligari (1920)", "url": "https://dn600308.us.archive.org/0/items/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari/The_Cabinet_of_Dr._Caligari_512kb.mp4", "logo": "https://archive.org/services/img/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari" },
+      { "nombre": "Carnival of Souls (1962)", "url": "https://dn600308.us.archive.org/0/items/CarnivalofSouls/CarnivalOfSouls.mp4", "logo": "https://archive.org/services/img/CarnivalofSouls" },
+      { "nombre": "White Zombie (1932)", "url": "https://dn800206.us.archive.org/0/items/white_zombie/white_zombie.mp4", "logo": "https://archive.org/services/img/white_zombie" },
+      { "nombre": "Beat the Devil (1953)", "url": "https://dn600206.us.archive.org/0/items/BeatTheDevil1953/BeatTheDevil1954.mp4", "logo": "https://archive.org/services/img/BeatTheDevil1953" },
+      { "nombre": "La pequena tienda de los horrores (1960)", "url": "https://dn600204.us.archive.org/0/items/TheLittleShopOfHorrors1960_765/TheLittleShopOfHorrors1960.mp4", "logo": "https://archive.org/services/img/TheLittleShopOfHorrors1960_765" }
+    ]
   },
 
   "secciones": [

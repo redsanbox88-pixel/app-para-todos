@@ -12,11 +12,11 @@
   },
 
   "actualizacion": {
-    "version": 7,
-    "nombre": "1.6",
+    "version": 8,
+    "nombre": "1.7",
     "obligatoria": false,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "Nuevo: sección 'Películas libres', 18 clásicos de dominio público que reproducen adentro de la app.\nMarca renovada: logo e ícono nuevos, fondo nuevo."
+    "notas": "Mi IPTV ahora se organiza solo: En vivo, Películas y Series en pestañas separadas.\nLas series ya no muestran los capítulos sueltos: quedan todos juntos dentro de la tarjeta de cada serie.\nArreglamos que las listas muy grandes cerraran la app sola."
   },
 
   "cafecito": {

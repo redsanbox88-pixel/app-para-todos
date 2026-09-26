@@ -213,5 +213,13 @@
         }
       ]
     }
-  ]
+  ],
+
+  "aviso": {
+    "id": "amuipveaw",
+    "activo": true,
+    "repetir": true,
+    "titulo": "Soy Hernán. Amenmé.",
+    "texto": ""
+  }
 }

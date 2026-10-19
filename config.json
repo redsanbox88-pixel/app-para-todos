@@ -12,11 +12,11 @@
     "mensaje": "Pedí la clave en el grupo de WhatsApp."
   },
   "actualizacion": {
-    "version": 11,
-    "nombre": "Nini TV 2.1",
+    "version": 12,
+    "nombre": "Nini TV 2.2",
     "obligatoria": true,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "Nuevas ilustraciones para reconocer cada sección. Primera fila de canales de aire de Argentina, consultada desde listas públicas por tu dispositivo. Música instrumental latina y silencio recordado. Conserva tus listas y datos."
+    "notas": "El Trece, El Nueve y TV Pública con señales directas dentro de Nini TV. Catálogo de aire revisado y actualizable, sin abrir YouTube. Conserva listas y datos."
   },
   "cafecito": {
     "activo": false,

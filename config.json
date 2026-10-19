@@ -12,11 +12,11 @@
     "mensaje": "Pedí la clave en el grupo de WhatsApp."
   },
   "actualizacion": {
-    "version": 12,
-    "nombre": "Nini TV 2.2",
+    "version": 13,
+    "nombre": "Nini TV 2.3",
     "obligatoria": true,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "El Trece, El Nueve y TV Pública con señales directas dentro de Nini TV. Catálogo de aire revisado y actualizable, sin abrir YouTube. Conserva listas y datos."
+    "notas": "Primera fila revisada: 65 canales con video comprobado y señales reparadas. Solo reproducción dentro de Nini TV. Fuentes caídas retiradas temporalmente; listas y datos conservados."
   },
   "cafecito": {
     "activo": false,

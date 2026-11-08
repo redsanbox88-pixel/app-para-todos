@@ -12,11 +12,11 @@
     "mensaje": "Pedí la clave en el grupo de WhatsApp."
   },
   "actualizacion": {
-    "version": 13,
-    "nombre": "Nini TV 2.3",
+    "version": 14,
+    "nombre": "Nini TV — servicio pausado",
     "obligatoria": true,
     "url": "https://github.com/redsanbox88-pixel/app-para-todos/releases/latest/download/AppParaTodos.apk",
-    "notas": "Primera fila revisada: 65 canales con video comprobado y señales reparadas. Solo reproducción dentro de Nini TV. Fuentes caídas retiradas temporalmente; listas y datos conservados."
+    "notas": "Informamos que, por decisión del equipo de desarrollo, el servicio de Nini TV quedará pausado por tiempo indeterminado.\n\nMantener este proyecto requiere trabajo y dedicación, y hemos decidido hacer una pausa.\n\nGracias por acompañarnos y sepan disculpar las molestias."
   },
   "cafecito": {
     "activo": false,
@@ -284,10 +284,10 @@
     }
   ],
   "aviso": {
-    "id": "nini-tv-2-0-bienvenida",
+    "id": "nini-tv-pausa-20261108",
     "activo": true,
-    "repetir": false,
-    "titulo": "Bienvenido a Nini TV",
-    "texto": "App para todos tiene un nuevo nombre y una nueva imagen. Tus listas y tus datos siguen acá. Disfrutá la función."
+    "repetir": true,
+    "titulo": "Servicio pausado",
+    "texto": "Informamos que, por decisión del equipo de desarrollo, el servicio de Nini TV quedará pausado por tiempo indeterminado.\n\nMantener este proyecto requiere trabajo y dedicación, y hemos decidido hacer una pausa.\n\nGracias por acompañarnos y sepan disculpar las molestias."
   }
 }
